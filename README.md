@@ -1,5 +1,7 @@
 # NoItemBreak
 
+[![build](https://github.com/EdouardCourty/NoItemBreak/actions/workflows/build.yml/badge.svg)](https://github.com/EdouardCourty/NoItemBreak/actions/workflows/build.yml)
+
 A client-side Fabric mod for Minecraft 1.21.11 that prevents you from accidentally breaking your tools and weapons.
 
 When an item in your main hand reaches **1 durability**, NoItemBreak blocks any action that would destroy it (attacking, mining, using). A warning message is shown in your action bar.
