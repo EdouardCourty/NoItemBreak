@@ -1,0 +1,11 @@
+{
+  "message.noitembreak.durability_warning": "⚠ Item durability too low to use!",
+
+  "screen.noitembreak.title": "NoItemBreak Configuration",
+
+  "options.noitembreak.enabled": "Protection Enabled",
+  "options.noitembreak.item_hint": "e.g. minecraft:diamond_sword",
+  "options.noitembreak.add": "Add",
+  "options.noitembreak.remove": "Remove",
+  "options.noitembreak.reset": "Reset Defaults"
+}

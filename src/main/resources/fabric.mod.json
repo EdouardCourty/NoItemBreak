@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "noitembreak",
+	"version": "${version}",
+	"name": "NoItemBreak",
+	"description": "Prevents using tools and weapons when they have only 1 durability left.",
+	"authors": [
+		"e.courty"
+	],
+	"contact": {
+		"sources": "https://github.com/ecourty/noitembreak"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/noitembreak/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ecourty.noitembreak.NoItemBreak"
+		],
+		"client": [
+			"com.ecourty.noitembreak.NoItemBreakClient"
+		],
+		"modmenu": [
+			"com.ecourty.noitembreak.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"noitembreak.mixins.json",
+		{
+			"config": "noitembreak.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
